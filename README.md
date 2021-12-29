@@ -10,9 +10,9 @@
 <img width="751" alt="Screen Shot 2021-12-28 at 8 44 42 PM" src="https://user-images.githubusercontent.com/92617960/147625543-6af0e630-cec9-4fbe-9d5b-13f571fe9b31.png">
 
 
-- [ ] Create a new Flask project
+- [X] Create a new Flask project
 
-- [ ] Use dojos_and_ninjas_schema created in MySQL course
+- [X] Use dojos_and_ninjas_schema created in MySQL course
 
 - [ ] `Dojo` page to add a new Dojo and display all Dojos
 
