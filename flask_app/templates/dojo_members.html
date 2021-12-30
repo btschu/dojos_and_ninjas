@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container mt-4 mx-auto w-50">
-        <h1>{{  }} Ninjas</h1>
+        <h1>Ninjas at {{ dojo.name }}</h1>
         <table class="table table-striped table-hover border border-dark mt-4 mx-auto">
             <thead class="">
                 <tr>
@@ -20,16 +20,16 @@
                 </tr>
             </thead>
             <tbody>
-                {% for dojo in dojos %}
+                {% for ninja in dojo.ninjas %}
                     <tr>
-                        <td>{{ dojo.first_name }} </td>
-                        <td>{{ dojo.last_name }} {{ user.last_name }}</td>
-                        <td>{{ dojo.age }}</td>
+                        <td>{{ ninja.first_name }} </td>
+                        <td>{{ ninja.last_name }}</td>
+                        <td>{{ ninja.age }}</td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
-        <a href="/users/new">Home</a>
+        <a href="/">Home</a>
     </div>
 </body>
 </html>
